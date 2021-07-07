@@ -15,7 +15,9 @@ console.log(cookieIngredients);
 
 const pizzas = ["Hawai", "Margherita"];
 
+const newItem = pizzas.push('Salami');
 
+console.log(pizzas);
 
 /* Opdracht 2: */
 // Verwijder het éérste item van onderstaande array en log dit in de terminal
