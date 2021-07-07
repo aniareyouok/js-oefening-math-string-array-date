@@ -23,3 +23,18 @@ console.log('Minuten: ' + currentTime.getMinutes());
 /* Opdracht 2 */
 // Format het date-object dat je bij de vorige vraag hebt gemaakt naar een leesbare datum
 // ---- Verwachte uitkomst: Tue Apr 06 2021 (afhankelijk van het moment)
+
+//In het engels
+console.log(currentTime.toDateString());
+
+//Hier specificeren dat de dagen en maanden voluit geschreven mogen worden
+const longOptions = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+};
+
+//Hier datum en tijd in het Nederlands. Als je alleen de datum wil kan je .toLocaleDateString gebruiken
+const dutchTime = currentTime.toLocaleTimeString('nl-NL', longOptions);
+console.log(dutchTime);
