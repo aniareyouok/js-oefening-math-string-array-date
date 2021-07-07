@@ -40,7 +40,7 @@ console.log(squareOfx);
 // Tip: iedere keer als je het script opnieuw draait (wel even een extra spatie toevoegen o.i.d.) is dit getal anders ;)
 // ---- Verwachte uitkomst: Bijbehorende zin afhankelijk van de
 
-const randomNumber = Math.random();
+const randomNumber = Math.round(Math.random() * 10)/10;
 
 if (randomNumber > 0.5) {
     console.log(randomNumber + ' Het glas is half vol' + '\n')
