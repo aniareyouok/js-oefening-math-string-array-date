@@ -71,6 +71,13 @@ if (story.includes(hiddenWord)) {
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
 
+//Ik gebruik .substring in combinatie met indexOF
+//De reden is luiheid, omdat ik niet wil lopen tellen op welk index nummer het spatie na het puntje zich bevindt
+//Op deze manier werkt het ook bij een andere tekst, want de eerste zin wordt geprint/gelogd onafhankelijk van hoe lang de zin is.
+
+const shorterSentence = story.substring(0, (story.indexOf('.')+1));
+
+console.log(shorterSentence);
 
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
