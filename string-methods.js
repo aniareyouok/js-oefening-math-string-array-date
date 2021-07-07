@@ -10,13 +10,12 @@ console.log(word.length);
 //  Check of het woord "Banaan" langer is dan het woord "Aardappel" en log dit in de terminal.
 // ---- Verwachte uitkomst: false
 
+//Ik had hier eerst aparte variabelen gemaakt voor fruit.length en vegetable.length, maar vond dat eigenlijk overbodig
+
 const fruit = "Banaan";
 const vegetable = "Aardpeer";
 
-let lengthOfFruit = fruit.length;
-let lengthOfVeggie = vegetable.length;
-
-if (lengthOfVeggie > lengthOfFruit) {
+if (vegetable.length > fruit.length) {
     let VegetableIsTheLongestWord = true
     console.log(VegetableIsTheLongestWord)
 } else {
@@ -30,6 +29,15 @@ if (lengthOfVeggie > lengthOfFruit) {
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
 
+//Ik heb 'length' gebruikt om het index nummer van de laatste letter te kunnen bepalen
+// Vervolgens haal ik de letter op met de 'charAt' functie.
+//Op deze manier kan 'fruit' of 'vegetable' altijd een ander word met een ander lengte zijn.
+// Het werkt nu dus ook met bijvoorbeeld 'aardbei' en 'ui'.
+
+let lastIndexOfFruit = fruit.length-1;
+let lastIndexOfVeggie = vegetable.length-1;
+
+console.log(fruit.charAt(lastIndexOfFruit) + ' & ' + vegetable.charAt(lastIndexOfVeggie));
 
 
 /* Opdracht 3 */
