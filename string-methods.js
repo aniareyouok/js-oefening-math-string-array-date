@@ -88,7 +88,10 @@ console.log(shorterSentence);
 
 const price = "$35.59";
 
+const euroPrice = price.replace('$', '€')
+const dutchPrice = euroPrice.replace('.', ',');
 
+console.log(dutchPrice);
 
 
 
