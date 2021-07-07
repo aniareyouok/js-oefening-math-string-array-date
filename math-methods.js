@@ -29,7 +29,9 @@ console.log(circumferenceRound(12));
 // Bereken de wortel van 9 en log dit in de terminal
 // ---- Verwachte uitkomst: 3
 
+const squareOfx = Math.sqrt(9);
 
+console.log(squareOfx);
 
 /* Opdracht 4: */
 // Genereer een willekeurig getal tussen de 0 en 1 en doe dan een check:
