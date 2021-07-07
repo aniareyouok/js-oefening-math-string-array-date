@@ -13,6 +13,11 @@ console.log(currentDay);
 // Uren: 16 (als er een vier in de klok zit op het moment van aanroepen)
 // Minuten: 36 (als het 16:36 is op het moment van aanroepen)
 
+const currentTime = new Date();
+
+console.log('Uren: ' + currentTime.getHours());
+console.log('Minuten: ' + currentTime.getMinutes());
+
 
 
 /* Opdracht 2 */
