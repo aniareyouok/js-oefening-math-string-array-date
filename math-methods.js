@@ -40,6 +40,8 @@ console.log(squareOfx);
 // Tip: iedere keer als je het script opnieuw draait (wel even een extra spatie toevoegen o.i.d.) is dit getal anders ;)
 // ---- Verwachte uitkomst: Bijbehorende zin afhankelijk van de
 
+//Ik heb hier math.round toegevoegd om op 1 decimal uit te komen
+//De opdracht is onduidelijk "kleiner dan 0.5" of "groter dan 0.5" en wat als het gelijk is aan 0.5? Ik heb het zo gelaten.
 const randomNumber = Math.round(Math.random() * 10)/10;
 
 if (randomNumber > 0.5) {
