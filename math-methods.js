@@ -9,6 +9,11 @@ console.log(Math.PI);
 // Tip: de formule is omtrek = diameter * pi
 // ---- Verwachte uitkomst: 12.566370614359172
 
+function circumferenceOfCircle (diameter) {
+    return Math.PI * diameter
+}
+
+console.log(circumferenceOfCircle(4));
 
 /* Opdracht 2: */
 // Bereken de omtrek van een cirkel met een diameter van 12 en rond dit af naar een heel getal. Log dit in de terminal.
