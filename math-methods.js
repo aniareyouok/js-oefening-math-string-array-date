@@ -38,4 +38,12 @@ console.log(squareOfx);
 // * is het willekeurige getal groter dan 0.5 ? Log dan het getal met "Het glas is halfvol" in de terminal
 // * is het willekeurige getal kleiner dan 0.5 ? Log dan het getal met "Het glas is half leeg" in de terminal
 // Tip: iedere keer als je het script opnieuw draait (wel even een extra spatie toevoegen o.i.d.) is dit getal anders ;)
-// ---- Verwachte uitkomst: Bijbehorende zin afhankelijk van de uitkomst
+// ---- Verwachte uitkomst: Bijbehorende zin afhankelijk van de
+
+const randomNumber = Math.random();
+
+if (randomNumber > 0.5) {
+    console.log(randomNumber + ' Het glas is half vol' + '\n')
+} else {
+    console.log(randomNumber + ' Het glas is half leeg' + '\n')
+}
