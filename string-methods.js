@@ -56,7 +56,15 @@ console.log(neatInput);
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
 
+const hiddenWord = 'Fantastisch';
 
+if (story.includes(hiddenWord)) {
+    const wordFound = true;
+    console.log(wordFound)
+} else {
+    const wordFound = false;
+    console.log(wordFound)
+}
 
 /* Opdracht 5 */
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
