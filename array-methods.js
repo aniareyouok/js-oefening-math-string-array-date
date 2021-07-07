@@ -43,7 +43,9 @@ console.log(namesReversed);
 // Onderstaande array bevat een lijst met plaatsnamen. Voeg de naam "Amsterdam" toe tussen Utrecht en Maastricht.
 // ---- Verwachte uitkomst: [ 'Utrecht', 'Amsterdam', 'Maastricht', 'Eindhoven' ]
 
+
 const cities = ["Utrecht", "Maastricht", "Eindhoven"];
-
-
+console.log(cities);
+cities.splice(1, 0, "Amsterdam");
+console.log(cities);
 
