@@ -26,6 +26,9 @@ console.log(pizzas);
 
 const brownieIngredients = ["Noten", "Eieren", "Bloem", "Cacao", "Chocoladestukjes", "Bakpoeder"];
 
+const oneDown = brownieIngredients.shift();
+console.log(oneDown);
+console.log(brownieIngredients);
 
 /* Opdracht 3: */
 // Draai de volgorde van onderstaande array met namen om en log de gehele array in de terminal om te kijken is het gelukt is
