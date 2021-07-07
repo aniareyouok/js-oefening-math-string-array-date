@@ -13,6 +13,8 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
+let lengthOfFruit = fruit.length;
+let lengthOfVeggie = vegetable.length;
 
 
 /* Opdracht 2 */
