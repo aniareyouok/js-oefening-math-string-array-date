@@ -36,7 +36,8 @@ console.log(brownieIngredients);
 
 const names = ["Henk", "Jan", "Piet"];
 
-
+namesReversed = names.reverse();
+console.log(namesReversed);
 
 /* Opdracht 4: */
 // Onderstaande array bevat een lijst met plaatsnamen. Voeg de naam "Amsterdam" toe tussen Utrecht en Maastricht.
