@@ -11,11 +11,18 @@ console.log(word.length);
 // ---- Verwachte uitkomst: false
 
 const fruit = "Banaan";
-const vegetable = "Aardappel";
+const vegetable = "Aardpeer";
 
 let lengthOfFruit = fruit.length;
 let lengthOfVeggie = vegetable.length;
 
+if (lengthOfVeggie > lengthOfFruit) {
+    let VegetableIsTheLongestWord = true
+    console.log(VegetableIsTheLongestWord)
+} else {
+    let VegetableIsTheLongestWord = false
+    console.log(VegetableIsTheLongestWord)
+}
 
 /* Opdracht 2 */
 //  Zorg ervoor dat de laatste letter van het woord in fruit en vegetable (hierboven) in de terminal gelogd wordt.
