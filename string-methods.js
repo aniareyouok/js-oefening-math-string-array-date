@@ -46,7 +46,9 @@ console.log(fruit.charAt(lastIndexOfFruit) + ' & ' + vegetable.charAt(lastIndexO
 
 const userInput = "  De kat krabt de krullen van de trap ";
 
+neatInput = userInput.trim();
 
+console.log(neatInput);
 
 /* Opdracht 4 */
 // Check of het woord "Fantastisch" in onderstaande zin voorkomt en log dit in de terminal.
